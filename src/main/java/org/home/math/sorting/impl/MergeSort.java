@@ -1,6 +1,6 @@
 package org.home.math.sorting.impl;
 
-import org.home.math.sorting.Sorteable;
+import org.home.math.sorting.AbstractSort;
 
 /**
  * Merge Sort
@@ -9,8 +9,7 @@ import org.home.math.sorting.Sorteable;
  * Space: O(N)
  *
  */
-public class MergeSort implements Sorteable {
-
+public class MergeSort extends AbstractSort{
     private int[] inArray;
     private int[] forMergeArray;
 

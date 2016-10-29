@@ -1,11 +1,11 @@
 package org.home.math.sorting.impl;
 
-import org.home.math.sorting.Sorteable;
+import org.home.math.sorting.AbstractSort;
 
 /**
  * Created by Oscar J. Perez on 28/10/16.
  */
-public class BubbleSort implements Sorteable {
+public class BubbleSort extends AbstractSort {
 
     public int[] sort(int[] unsortedArray) {
         int length = unsortedArray.length;
