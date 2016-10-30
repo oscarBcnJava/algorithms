@@ -13,6 +13,13 @@ public abstract class AbstractSort implements Sorteable {
         inArray[posB] = temp;
     }
 
+    /**
+     * Check first argument is smaller than second argument passed
+     *
+     * @param posA
+     * @param posB
+     * @return true if posA is smaller than posB, false otherwise
+     */
     public boolean isSmallerThan(int posA, int posB) {
         return posA < posB;
     }
